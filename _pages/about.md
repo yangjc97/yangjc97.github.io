@@ -23,14 +23,52 @@ Research Interests
 
 News
 ======
-* **[2026.02]** Heading to Brazil for **ICLR 2026** to present our latest work on RRAM-based neural solvers.
-* **[2026.01]** Our manuscript on mitigating IR drop in 1T1R CIM is being prepared for transfer to **Nature Electronics**.
-* **[2025.12]** Completed an extensive study on RRAM programming data analysis and multi-level cell characteristics.
+
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
+  
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2026.02] Heading to Brazil for <strong>ICLR 2026</strong>.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2026.01] Preparing manuscript transfer to <strong>Nature Electronics</strong>.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2023.08.24] I joined The University of Hong Kong as a PHD student.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2023.06.10] I obtain my B.Eng. degree in Microelectronics from HIT!.
+  </div>
+
+</div>
 
 Education
 ======
-* **Ph.D. in Electrical and Electronic Engineering**, The University of Hong Kong (HKU), 2022 - Present
-* **B.S. in [Your Major]**, [Your University], 2018 - 2022
+
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
+  <img src="/images/hku_logo.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <div style="flex: 1;">
+    <div style="display: flex; justify-content: space-between;">
+      <strong>The University of Hong Kong</strong>
+      <span>2023.08 - Present</span>
+    </div>
+    <div style="color: #586069;">Ph.D. Student in Electrical and Electronic Engineering</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Topics: RRAM, Computing-in-Memory, Neuromorphic Computing</div>
+  </div>
+</div>
+
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
+  <img src="/images/hit_logo.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <div style="flex: 1;">
+    <div style="display: flex; justify-content: space-between;">
+      <strong>Harbin Institute of Technology (HIT)</strong>
+      <span>2019.09 - 2023.06</span>
+    </div>
+    <div style="color: #586069;">B.Eng. in Microelectronics</div>
+  </div>
+</div>
 
 Selected Publications
 ======
