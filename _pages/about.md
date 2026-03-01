@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Zhongrui Wang** and **Prof. Han Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation artificial intelligence, with a specific focus on in-memory computing, resistive memory, and analog circuit design. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome hardware bottlenecks in energy-efficient AI deployment.
+I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Zhongrui Wang** and **Prof. Han Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation artificial intelligence, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome hardware bottlenecks in energy-efficient AI deployment.
+
+Also with a background in power electronics and motor control, I have developed capabilities in circuit design and control system simulation. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient systems.
 
 News
 ======
