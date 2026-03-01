@@ -27,6 +27,7 @@ News
 
 </div>
 
+
 Education
 ======
 
@@ -81,6 +82,9 @@ Contact
 
 Visitors
 ======
+Visitors
+======
+
 <div style="width: 100%; text-align: center; margin-top: 20px;">
-  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5qy7m8e7z2q&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
+  <a href="https://mapmyvisitors.com/web/1c2xw"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=zqh1sNuRVzpChmg191n3YU9G-dKp3QSFrBj1HjRAZdk&cl=ffffff" /></a>
 </div>
