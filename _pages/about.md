@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student at **The University of Hong Kong (HKU)**, specializing in **Non-volatile Memory (NVM)** and **Neuromorphic Computing**. My research bridges the gap between innovative semiconductor devices and next-generation artificial intelligence.
+I am a 4-year PhD student at **The University of Hong Kong (HKU)**, specializing in **Non-volatile Memory (NVM)** and **Neuromorphic Computing**. My research bridges the gap between innovative semiconductor devices and next-generation artificial intelligence.
 
 Currently, I am focused on the modeling and circuit-level optimization of **RRAM-based Computing-in-Memory (CIM)** systems to enable energy-efficient AI hardware.
 
