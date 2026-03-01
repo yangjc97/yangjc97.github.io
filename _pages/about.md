@@ -12,14 +12,6 @@ I am a final-year PhD student at **The University of Hong Kong (HKU)**, speciali
 
 Currently, I am focused on the modeling and circuit-level optimization of **RRAM-based Computing-in-Memory (CIM)** systems to enable energy-efficient AI hardware.
 
-Research Interests
-======
-
-
-* **RRAM & Reliability**: Device modeling with a focus on **Endurance** and **Retention** characteristics.
-* **CIM Architecture**: Mitigating **IR drop** in 1T1R arrays to enhance the precision of analog computing.
-* **Neural Solvers**: Developing hybrid computing systems for **Neural Differential Equations**.
-* **Machine Unlearning**: Exploring resistive memory-based systems for continual learning and data privacy.
 
 News
 ======
