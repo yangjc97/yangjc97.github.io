@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 4-year PhD student at **The University of Hong Kong (HKU)**, specializing in **Non-volatile Memory (NVM)** and **Neuromorphic Computing**. My research bridges the gap between innovative semiconductor devices and next-generation artificial intelligence.
-
-Currently, I am focused on the modeling and circuit-level optimization of **RRAM-based Computing-in-Memory (CIM)** systems to enable energy-efficient AI hardware.
-
+I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Zhongrui Wang** and **Prof. Han Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation artificial intelligence, with a specific focus on in-memory computing, resistive memory, and analog circuit design. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome hardware bottlenecks in energy-efficient AI deployment.
 
 News
 ======
@@ -19,7 +16,7 @@ News
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.12] Presented a oral paper at IEDM2024.
+    [2024.12] Presented an oral paper at IEDM2024.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
