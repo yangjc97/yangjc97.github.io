@@ -80,5 +80,5 @@ Contact
 📧 **Email**: [yangjc100@connect.hku.hk](mailto:yangjc100@connect.hku.hk)  
 📍 **Office**: [Room 324/Haking Wong Building], HKU, Hong Kong
 <div style="width: 100%; text-align: center; margin-top: 20px;">
-  <a href="https://mapmyvisitors.com/web/1c2xw"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=zqh1sNuRVzpChmg191n3YU9G-dKp3QSFrBj1HjRAZdk&cl=ffffff" /></a>
+  <a href='https://mapmyvisitors.com/web/1c2xw'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=2065b5&w=600&t=tt&d=zqh1sNuRVzpChmg191n3YU9G-dKp3QSFrBj1HjRAZdk&co=ffffff&ct=ffffff'/></a>
 </div>
