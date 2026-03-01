@@ -17,21 +17,13 @@ News
 ======
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
-  
+
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2026.02] Heading to Brazil for <strong>ICLR 2026</strong>.
+    [2024.12] Presented a oral paper at IEDM 2024</strong>.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2026.01] Preparing manuscript transfer to <strong>Nature Electronics</strong>.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2023.08.24] I joined The University of Hong Kong as a PHD student.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2023.06.10] I obtain my B.Eng. degree in Microelectronics from HIT!.
+    [2022.09] I joined The University of Hong Kong as a Ph.D. student.
   </div>
 
 </div>
@@ -40,25 +32,36 @@ Education
 ======
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/hku_logo.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <img src="/images/HKU.png" style="width: 60px; height: 60px; margin-right: 20px;">
   <div style="flex: 1;">
     <div style="display: flex; justify-content: space-between;">
-      <strong>The University of Hong Kong</strong>
-      <span>2023.08 - Present</span>
+      <strong>The University of Hong Kong (HKU)</strong>
+      <span>2022.09 - Present</span>
     </div>
-    <div style="color: #586069;">Ph.D. Student in Electrical and Electronic Engineering</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Topics: RRAM, Computing-in-Memory, Neuromorphic Computing</div>
+    <div style="color: #586069;">Ph.D. Student at Department of Electrical and Computer Engineering (ECE)</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Topics: In-memory Computing, Neuromorphic Computing, Resistive Memory</div>
   </div>
 </div>
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/hit_logo.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <img src="/images/CAEMD.jpg" style="width: 60px; height: 60px; margin-right: 20px;">
   <div style="flex: 1;">
     <div style="display: flex; justify-content: space-between;">
-      <strong>Harbin Institute of Technology (HIT)</strong>
-      <span>2019.09 - 2023.06</span>
+      <strong>Huazhong University of Science and Technology (HUST)</strong>
+      <span>2019.09 - 2022.06</span>
     </div>
-    <div style="color: #586069;">B.Eng. in Microelectronics</div>
+    <div style="color: #586069;">M.S. at Center for Advanced Electrical Machine and Drives (CAEMD)</div>
+  </div>
+</div>
+
+<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
+  <img src="/images/HUST.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <div style="flex: 1;">
+    <div style="display: flex; justify-content: space-between;">
+      <strong>Huazhong University of Science and Technology (HUST)</strong>
+      <span>2015.09 - 2019.06</span>
+    </div>
+    <div style="color: #586069;">B.S. at School of Electrical and Electronic Engineering (SEEE)</div>
   </div>
 </div>
 
