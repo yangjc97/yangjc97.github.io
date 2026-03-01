@@ -74,5 +74,5 @@ Selected Publications
 
 Contact
 ======
-📧 **Email**: [your-email@connect.hku.hk](mailto:your-email@connect.hku.hk)  
-📍 **Office**: [Your Lab/Building], HKU, Hong Kong
+📧 **Email**: [yangjc100@connect.hku.hk](mailto:yangjc100@connect.hku.hk)  
+📍 **Office**: [Room 324/Haking Wong Building], HKU, Hong Kong
