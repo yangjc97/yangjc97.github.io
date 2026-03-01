@@ -19,7 +19,7 @@ News
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.12] Presented a oral paper at IEDM 2024</strong>.
+    [2024.12] Presented a oral paper at IEDM2024.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
@@ -39,7 +39,8 @@ Education
       <span>2022.09 - Present</span>
     </div>
     <div style="color: #586069;">Ph.D. Student at Department of Electrical and Computer Engineering (ECE)</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Topics: In-memory Computing, Neuromorphic Computing, Resistive Memory</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Topics: In-memory computing, resistive memory and analog circuit design</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Advisor: Prof. Zhongrui Wang and Prof. Han Wang</div>
   </div>
 </div>
 
@@ -51,6 +52,8 @@ Education
       <span>2019.09 - 2022.06</span>
     </div>
     <div style="color: #586069;">M.S. at Center for Advanced Electrical Machine and Drives (CAEMD)</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Topics: Active magnetic bearing, control system, power electronics</div>
+    <div style="font-size: 0.9em; margin-top: 5px;">Advisor: Prof. Dong Jiang and Prof. Ronghai Qu</div>
   </div>
 </div>
 
