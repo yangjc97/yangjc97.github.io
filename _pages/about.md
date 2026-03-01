@@ -32,7 +32,7 @@ Education
 ======
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/HKU.png" style="width: 60px; height: 60px; margin-right: 20px;">
+  <img src="/images/HKU.jpg" style="width: 60px; height: 60px; margin-right: 20px;">
   <div style="flex: 1;">
     <div style="display: flex; justify-content: space-between;">
       <strong>The University of Hong Kong (HKU)</strong>
@@ -44,7 +44,7 @@ Education
 </div>
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/CAEMD.jpg" style="width: 60px; height: 60px; margin-right: 20px;">
+  <img src="/images/CAEMD.png" style="width: 60px; height: 60px; margin-right: 20px;">
   <div style="flex: 1;">
     <div style="display: flex; justify-content: space-between;">
       <strong>Huazhong University of Science and Technology (HUST)</strong>
