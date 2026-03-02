@@ -2,7 +2,7 @@
 title: "High-precision In-memory Flow Matching using Resistive Memory"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-flow-matching
+permalink: /publication/1-NE-fm
 date: 2026-03-01
 venue: 'Under Submission'
 excerpt: '<b>J. Yang†</b>, M. Xu†, H. Chen†, N. Lin, Y. Zeng, S. Wang, X. Zhang, Z. Ye, Y. Yu, S. Liang, J. Jiang, J. Chen, Y. Li, Z. Wang, X. Qi, H. Wang'

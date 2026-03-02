@@ -1,12 +1,12 @@
 ---
-title: "High-precision In-memory Flow Matching using Resistive Memory"
+title: "Resistive memory-based neural differential equation solver for score-based diffusion model"
 collection: publications
-category: manuscripts
-permalink: /publication/2026-flow-matching
-date: 2026-03-01
-venue: 'Under Submission'
-excerpt: '<b>J. Yang†</b>, M. Xu†, H. Chen†, N. Lin, Y. Zeng, S. Wang, X. Zhang, Z. Ye, Y. Yu, S. Liang, J. Jiang, J. Chen, Y. Li, Z. Wang, X. Qi, H. Wang'
-paperurl: '如果有PDF链接可以填这里，没有就把这行删了'
+category: manucripts
+permalink: /publication/1-NC-diffusion
+date: 2024-04-08
+venue: 'Under Review'
+excerpt: '<b>Jichang Yang†</b>, Hegan Chen†, Jia Chen†, Songqi Wang, Shaocong Wang, Yifei Yu, Xi Chen, Bo Wang, Xinyuan Zhang, Binbin Cui, Yi Li, Ning Lin, Meng Xu, Xiaoxin Xu, Xiaojuan Qi, Zhongrui Wang, Xumeng Zhang, Dashan Shang, Han Wang, Qi Liu, Kwang-Ting Cheng, Ming Liu'
+paperurl: 'https://arxiv.org/abs/2404.05648'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Human brains image complicated scenes when reading a novel. Replicating this imagination is one of the ultimate goals of AI-Generated Content (AIGC). However, current AIGC methods, such as score-based diffusion, are still deficient in terms of rapidity and efficiency. This deficiency is rooted in the difference between the brain and digital computers. Digital computers have physically separated storage and processing units, resulting in frequent data transfers during iterative calculations, incurring large time and energy overheads. This issue is further intensified by the conversion of inherently continuous and analog generation dynamics, which can be formulated by neural differential equations, into discrete and digital operations. Inspired by the brain, we propose a time-continuous and analog in-memory neural differential equation solver for score-based diffusion, employing emerging resistive memory. The integration of storage and computation within resistive memory synapses surmount the von Neumann bottleneck, benefiting the generative speed and energy efficiency. The closed-loop feedback integrator is time-continuous, analog, and compact, physically implementing an infinite-depth neural network. Moreover, the software-hardware co-design is intrinsically robust to analog noise. We experimentally validate our solution with 180 nm resistive memory in-memory computing macros. Demonstrating equivalent generative quality to the software baseline, our system achieved remarkable enhancements in generative speed for both unconditional and conditional generation tasks, by factors of 64.8 and 156.5, respectively. Moreover, it accomplished reductions in energy consumption by factors of 5.2 and 4.1. Our approach heralds a new horizon for hardware solutions in edge computing for generative AI applications.
