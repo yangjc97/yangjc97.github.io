@@ -1,5 +1,5 @@
 ---
-title: "High-precision In-memory Flow Matching using Resistive Memory"
+title: "Adaptive redox resistive memory programming for efficient and robust class-incremental learning"
 collection: publications
 category: manuscripts
 permalink: /publication/1-AM-cil
