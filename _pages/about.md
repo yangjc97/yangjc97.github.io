@@ -22,6 +22,18 @@ News
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2024.10] Awarded <b>Best Poster Award</b> in 2024 Nature Conference on Neuromorphic Computing.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2024.09] Awarded <b>Best TA Award</b> for the 2023-24 academic year.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2022.09] Awarded <b>Hong Kong PhD Fellowship (HKPF)</b> and <b>HKU Presidential PhD Scholarship (HKU-PS)</b>.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
     [2022.09] I joined The University of Hong Kong as a Ph.D. student.
   </div>
 
