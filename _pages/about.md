@@ -72,8 +72,8 @@ Selected Publications
 ======
 *(Below is a highlight, see the full list in the [Publications](/publications/) tab)*
 
-1.  **Jichang Yang**, et al. "Mitigating IR Drop in 1T1R CIM Architectures." *Under Review*, 2026.
-2.  **Jichang Yang**, et al. "Resistive Memory-based System for Machine Unlearning." *In Proceedings of [Conference Name]*, 2026.
+1.  **Jichang Yang**, et al. "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-Based In-Memory Neural Differential Equation Solver" *IEEE International Electron Devices Meeting (IEDM)*, 2024.
+2.  Hegan Chen†, **Jichang Yang†**, et al. "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" *Science Advances*, 2025.
 
 Contact
 ======
