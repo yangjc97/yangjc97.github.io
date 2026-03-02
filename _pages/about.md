@@ -18,23 +18,23 @@ News
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.12] Presented an oral paper at IEDM2024.
+    [2024.12] 🎉 Presented an oral paper at IEDM2024.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.10] Awarded <b>Best Poster Award</b> in 2024 Nature Conference on Neuromorphic Computing.
+    [2024.10] 🎉 Awarded Best Poster Award in 2024 Nature Conference on Neuromorphic Computing.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.09] Awarded <b>Best TA Award</b> for the 2023-24 academic year.
+    [2024.09] 🎉 Awarded Best TA Award for the 2023-24 academic year.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2022.09] Awarded <b>Hong Kong PhD Fellowship (HKPF)</b> and <b>HKU Presidential PhD Scholarship (HKU-PS)</b>.
+    [2022.09] 🎉 Awarded <b>Hong Kong PhD Fellowship (HKPF)</b> and HKU Presidential PhD Scholarship (HKU-PS).
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2022.09] I joined The University of Hong Kong as a Ph.D. student.
+    [2022.09] 🎉 I joined The University of Hong Kong as a Ph.D. student.
   </div>
 
 </div>
