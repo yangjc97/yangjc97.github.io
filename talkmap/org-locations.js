@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
+    "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-based In-memory Neural Differential Equation Solver<br />IEEE International Electron Devices Meeting (IEDM), 2024; San Francisco, CA, USA",
     37.7879363,
     -122.4075201
   ]
