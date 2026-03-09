@@ -1,5 +1,5 @@
 ---
-title: "High-precision In-memory Flow Matching using Resistive Memory"
+title: "Transcending resistive memory noise constraints for high-precision analogue computing"
 collection: publications
 category: manuscripts
 permalink: /publication/1-NE-fm
