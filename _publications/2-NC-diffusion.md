@@ -1,7 +1,7 @@
 ---
 title: "Resistive memory-based neural differential equation solver for score-based diffusion model"
 collection: publications
-category: manuscripts
+category: journals
 permalink: /publication/2-NC-diffusion
 date: 2026-04-10
 venue: 'Nature Communications (accepted)'

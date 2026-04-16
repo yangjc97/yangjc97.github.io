@@ -86,12 +86,12 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'On the Way' 
   journals:
     title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'On the Way' 
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

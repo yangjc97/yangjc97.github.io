@@ -18,7 +18,11 @@ News
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2026.04] &#127942; Paper titled "Resistive memory-based neural differential equation solver for score-based diffusion model" accepted by Nature Communications.
+    [2026.04] &#127881; Paper titled "Resistive memory-based neural differential equation solver for score-based diffusion model" accepted by Nature Communications.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2025.05] &#127881; Paper titled "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" accepted by Science Advances.
   </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
@@ -91,8 +95,9 @@ Selected Publications
 ======
 *(Below is a highlight, see the full list in the [Publications](/publications/) tab)*
 
-1.  **Jichang Yang**, et al. "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-Based In-Memory Neural Differential Equation Solver" *IEEE International Electron Devices Meeting (IEDM)*, 2024.
-2.  Hegan Chen†, **Jichang Yang†**, et al. "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" *Science Advances*, 2025.
+1.  **Jichang Yang**, et al. "Resistive memory-based neural differential equation solver for score-based diffusion model" *Nature Communications*, 2026.
+2.  **Jichang Yang**, et al. "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-Based In-Memory Neural Differential Equation Solver" *IEEE International Electron Devices Meeting (IEDM)*, 2024.
+3.  Hegan Chen†, **Jichang Yang†**, et al. "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" *Science Advances*, 2025.
 
 Contact
 ======
