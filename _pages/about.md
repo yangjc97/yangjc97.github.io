@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jichang Yang (杨佶昌) [Seeking Postdoctoral/Faculty Opportunities]"
+title: "Jichang Yang (杨佶昌) <br> <span style='font-size: 0.7em;'>[Seeking Postdoctoral/Faculty Opportunities]</span>"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
