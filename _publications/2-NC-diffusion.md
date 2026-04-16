@@ -2,9 +2,9 @@
 title: "Resistive memory-based neural differential equation solver for score-based diffusion model"
 collection: publications
 category: manuscripts
-permalink: /publication/1-NC-diffusion
-date: 2024-04-08
-venue: 'Under Review'
+permalink: /publication/2-NC-diffusion
+date: 2026-04-10
+venue: 'Nature Communications (accepted)'
 excerpt: '<b>Jichang Yang†</b>, Hegan Chen†, Jia Chen†, Songqi Wang, Shaocong Wang, Yifei Yu, Xi Chen, Bo Wang, Xinyuan Zhang, Binbin Cui, Yi Li, Ning Lin, Meng Xu, Xiaoxin Xu, Xiaojuan Qi, Zhongrui Wang, Xumeng Zhang, Dashan Shang, Han Wang, Qi Liu, Kwang-Ting Cheng, Ming Liu'
 paperurl: 'https://arxiv.org/abs/2404.05648'
 ---

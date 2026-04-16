@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jichang Yang (杨佶昌)"
+title: "Jichang Yang (杨佶昌) [Seeking Postdoctoral/Faculty Opportunities]"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,6 +16,10 @@ News
 ======
 
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2026.04] &#127942; Paper titled "Resistive memory-based neural differential equation solver for score-based diffusion model" accepted by Nature Communications.
+  </div>
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
     [2024.12] &#127881; Presented an oral paper at IEDM2024.
