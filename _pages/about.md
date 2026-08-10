@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jichang Yang (杨佶昌) <br> <span style='font-size: 0.7em;'>[Seeking Postdoctoral/Faculty Opportunities]</span>"
+title: "Jichang Yang (杨佶昌)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation artificial intelligence, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome hardware bottlenecks in energy-efficient AI deployment.
+I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation Edge AI computing systems, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome the hardware bottlenecks that limit efficient inference and on-device learning at the edge.
 
-Also with a background in power electronics and motor control, I have developed capabilities in circuit design and control system simulation. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient systems.
+Beyond the chip itself, I build the embedded systems around it, with hands-on experience in circuit design, hardware-software co-design, and control system simulation, drawing on my earlier background in power electronics and motor control. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient edge computing systems.
 
 News
 ======
