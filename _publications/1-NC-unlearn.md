@@ -2,6 +2,7 @@
 title: "Resistive Memory based Efficient Machine Unlearning and Continual Learning"
 collection: publications
 category: manuscripts
+published: false   # hidden while under review; set to true (or remove) once accepted
 permalink: /publication/1-NC-unlearn
 date: 2026-01-15
 venue: 'Under Review'

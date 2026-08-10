@@ -2,6 +2,7 @@
 title: "Efficient lattice field theory simulation using adaptive normalizing flow on a resistive memory-based neural differential equation solver"
 collection: publications
 category: manuscripts
+published: false   # hidden while under review; set to true (or remove) once accepted
 permalink: /publication/1-NC-flow
 date: 2025-09-16
 venue: 'Under Review'

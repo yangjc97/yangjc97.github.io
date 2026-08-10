@@ -2,6 +2,7 @@
 title: "Transcending resistive memory noise constraints for high-precision analogue computing"
 collection: publications
 category: manuscripts
+published: false   # hidden while under review; set to true (or remove) once accepted
 permalink: /publication/1-NE-fm
 date: 2026-03-01
 venue: 'Under Review'
