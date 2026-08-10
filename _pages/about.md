@@ -18,6 +18,10 @@ News
 <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
 
   <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
+    [2026.07] &#127881; Paper titled "Adaptive Redox Resistive Memory Programming for Efficient and Robust Class-Incremental Learning" accepted by Advanced Materials.
+  </div>
+
+  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
     [2026.04] &#127881; Paper titled "Resistive memory-based neural differential equation solver for score-based diffusion model" accepted by Nature Communications.
   </div>
 
@@ -98,6 +102,7 @@ Selected Publications
 1.  **Jichang Yang**, et al. "Resistive memory-based neural differential equation solver for score-based diffusion model" *Nature Communications*, 2026.
 2.  **Jichang Yang**, et al. "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-Based In-Memory Neural Differential Equation Solver" *IEEE International Electron Devices Meeting (IEDM)*, 2024.
 3.  Hegan Chen†, **Jichang Yang†**, et al. "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" *Science Advances*, 2025.
+4.  Yi Li†, **Jichang Yang†**, et al. "Adaptive Redox Resistive Memory Programming for Efficient and Robust Class-Incremental Learning" *Advanced Materials*, 2026.
 
 Contact
 ======

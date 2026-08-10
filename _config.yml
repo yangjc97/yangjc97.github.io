@@ -90,8 +90,8 @@ publication_category:
     title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
-  manuscripts:
-    title: 'On the Way' 
+  # manuscripts:
+  #   title: 'On the Way'   # hidden: uncomment to show in-submission work again
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -233,7 +233,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false   # no individual talk pages; talks are listed on /talks/ only
     permalink: /:collection/:path/
 
 
