@@ -45,6 +45,20 @@
     }
   }
 
+  /* placeholder for a link that does not exist yet */
+
+  &--disabled {
+    color: var(--global-text-color-light) !important;
+    border: 1px dashed var(--global-border-color) !important;
+    background-color: var(--global-bg-color);
+    font-weight: normal;
+    cursor: default;
+
+    &:hover {
+      background-color: var(--global-bg-color);
+    }
+  }
+
   /* for dark backgrounds */
 
   &--inverse {

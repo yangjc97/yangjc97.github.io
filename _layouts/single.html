@@ -89,6 +89,10 @@ layout: default
         <div style="margin-top: 20px;">
           <a href="{{ page.paperurl }}" class="btn btn--primary" target="_blank">Article Link</a>
         </div>
+      {% elsif page.collection == 'publications' %}
+        <div style="margin-top: 20px;">
+          <span class="btn btn--disabled">Article Link (not available yet)</span>
+        </div>
       {% endif %}
 
       {% include post_pagination.html %}
