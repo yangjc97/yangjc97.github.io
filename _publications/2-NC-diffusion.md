@@ -5,7 +5,7 @@ category: journals
 permalink: /publication/2-NC-diffusion
 date: 2026-05-12
 venue: 'Nature Communications'
-excerpt: '<b>Jichang Yang†</b>, Hegan Chen†, Jia Chen†, Songqi Wang, Qifan Zhu, Xinyuan Zhang, Yan Zeng, Shaocong Wang, Mingrui Yang, Yifei Yu, Xi Chen, Bo Wang, Binbin Cui, Yi Li, Ning Lin, Meng Xu, Yi Li, Xiaoxin Xu, Xiaojuan Qi, Xumeng Zhang, Dashan Shang, Zhongrui Wang, Han Wang, Qi Liu, Kwang-Ting Cheng & Ming Liu'
+excerpt: '<b>Jichang Yang†</b>, Hegan Chen†, Jia Chen†*, Songqi Wang, Qifan Zhu, Xinyuan Zhang, Yan Zeng, Shaocong Wang, Mingrui Yang, Yifei Yu, Xi Chen, Bo Wang, Binbin Cui, Yi Li, Ning Lin, Meng Xu, Yi Li, Xiaoxin Xu, Xiaojuan Qi, Xumeng Zhang*, Dashan Shang*, Zhongrui Wang*, Han Wang, Qi Liu, Kwang-Ting Cheng & Ming Liu'
 paperurl: 'https://doi.org/10.1038/s41467-026-72900-z'
 ---
 

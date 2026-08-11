@@ -5,7 +5,7 @@ category: journals
 permalink: /publication/2-AM-cil
 date: 2026-07-20
 venue: 'Advanced Materials'
-excerpt: 'Yi Li†, <b>Jichang Yang†</b>, Qunsheng Hou†, Songqi Wang, Sishuo Liu, Hangming Zhang, Zijian Ye, Jizhong Jiang, Ning Lin, Xiaoxin Xu, Dashan Shang, Xiaojuan Qi, Zhongrui Wang, Han Wang'
+excerpt: 'Yi Li†, <b>Jichang Yang†</b>, Qunsheng Hou†, Songqi Wang, Sishuo Liu, Hangming Zhang, Zijian Ye, Jizhong Jiang, Ning Lin, Xiaoxin Xu, Dashan Shang, Xiaojuan Qi, Zhongrui Wang*, Han Wang'
 paperurl: 'https://doi.org/10.1002/adma.202600025'
 ---
 
