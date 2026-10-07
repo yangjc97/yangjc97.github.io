@@ -27,13 +27,14 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+          <li class="nav-item section-dropdown {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
+            {% include navbar-sections.liquid section="about" %}
           </li>
 
           <!-- Other pages -->
@@ -79,7 +80,7 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                <li class="nav-item{% if p.permalink == '/publications/' %} section-dropdown{% endif %} {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
@@ -93,6 +94,7 @@
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
+                  {% if p.permalink == '/publications/' %}{% include navbar-sections.liquid section="publications" %}{% endif %}
                 </li>
               {% endif %}
             {% endif %}
@@ -128,3 +130,4 @@
     </progress>
   {% endif %}
 </header>
+<script src="{{ '/assets/js/section-menu.js' | relative_url }}" defer></script>

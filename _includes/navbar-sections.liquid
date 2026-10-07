@@ -1,0 +1,15 @@
+<button class="section-menu-toggle" type="button" aria-expanded="false" aria-controls="{{ include.section }}-sections" aria-label="Show {{ include.section }} sections"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
+<div class="section-menu" id="{{ include.section }}-sections" hidden>
+{% if include.section == 'about' %}
+  <a href="{{ '/' | relative_url }}#overview">Overview</a>
+  <a href="{{ '/' | relative_url }}#news">News</a>
+  <a href="{{ '/' | relative_url }}#selected-publications">Selected Papers</a>
+  <a href="{{ '/' | relative_url }}#education">Education</a>
+  <a href="{{ '/' | relative_url }}#talks">Talks</a>
+  <a href="{{ '/' | relative_url }}#teaching">Teaching</a>
+{% else %}
+  {% assign nav_papers = site.publications | where_exp: 'paper', 'paper.published != false' | sort: 'date' | reverse %}
+  {% assign nav_years = nav_papers | group_by_exp: 'paper', "paper.date | date: '%Y'" %}
+  {% for year in nav_years %}<a href="{{ '/publications/' | relative_url }}#year-{{ year.name }}">{{ year.name }}</a>{% endfor %}
+{% endif %}
+</div>

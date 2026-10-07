@@ -5,9 +5,9 @@ permalink: /publications/
 nav: true
 nav_order: 1
 ---
-<p>Also available on <a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ">Google Scholar ↗</a>.</p>
 {% assign papers = site.publications | where_exp: 'paper', 'paper.published != false' | sort: 'date' | reverse %}
 {% assign years = papers | group_by_exp: 'paper', "paper.date | date: '%Y'" %}
+<p>Also available on <a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ">Google Scholar ↗</a>.</p>
 {% for year in years %}
 <h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
 {% assign prioritized = year.items | where_exp: 'paper', 'paper.year_priority != nil' | sort: 'year_priority' %}
