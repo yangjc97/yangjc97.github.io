@@ -1,0 +1,15 @@
+---
+layout: page
+title: CV
+heading: Curriculum Vitae
+permalink: /cv/
+nav: true
+nav_order: 2
+---
+{% assign cv_url = site.data.cv.pdf_path | relative_url %}
+<div class="cv-toolbar">
+  <p class="cv-updated">Last updated: <time datetime="{{ site.data.cv.updated | date: '%Y-%m-%d' }}">{{ site.data.cv.updated | date: '%B %d, %Y' }}</time></p>
+  <a class="cv-download" href="{{ cv_url }}" download="Jichang_Yang_CV.pdf">Download PDF ↓</a>
+</div>
+<iframe class="cv-viewer" src="{{ cv_url }}#view=FitH" title="Jichang Yang’s complete curriculum vitae" loading="eager"></iframe>
+<p class="cv-fallback">If the PDF does not display in your browser, <a href="{{ cv_url }}" target="_blank" rel="noopener">open the full PDF in a new tab ↗</a>.</p>

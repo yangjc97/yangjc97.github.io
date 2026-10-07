@@ -1,0 +1,30 @@
+<ol class="paper-list{% if include.compact %} paper-list-selected{% endif %}">
+{% for paper in include.papers %}
+  {% unless paper.published == false %}
+  <li class="paper{% if paper.preview or include.compact %} paper-with-preview{% endif %}">
+    {% if paper.preview %}
+    <div class="paper-preview{% if paper.preview_inset %} paper-preview-inset{% endif %}">
+      <img src="{{ paper.preview | relative_url }}" alt="{{ paper.preview_alt | default: paper.title | escape }}" width="360" height="225" loading="lazy" decoding="async">
+    </div>
+    {% elsif include.compact %}
+    <div class="paper-preview paper-preview-placeholder" aria-hidden="true"></div>
+    {% endif %}
+    <div class="paper-body">
+    <div class="paper-meta">{{ paper.venue | escape }} <span>· {{ paper.date | date: '%Y' }}{% if paper.status %} · {{ paper.status | escape }}{% endif %}</span></div>
+    <h3>{% if paper.paperurl %}<a href="{{ paper.paperurl }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
+    {% assign authors = paper.excerpt | replace: '<b>Jichang Yang', '<b class="author-self">Jichang Yang' %}
+    {% if include.compact %}
+      {% assign author_list = authors | replace: ' & ', ', ' | split: ', ' %}
+      {% assign more_authors = author_list.size | minus: 3 %}
+      <p class="paper-authors">{{ author_list | slice: 0, 3 | join: ', ' }}{% if more_authors > 0 %}, and {{ more_authors }} more authors{% endif %}</p>
+    {% else %}
+      <p class="paper-authors">{{ authors }}</p>
+    {% endif %}
+    <div class="paper-links">
+      {% if paper.paperurl %}<a href="{{ paper.paperurl }}">Paper ↗</a>{% endif %}
+    </div>
+    </div>
+  </li>
+  {% endunless %}
+{% endfor %}
+</ol>

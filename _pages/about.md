@@ -1,112 +1,62 @@
 ---
+layout: about
+title: About
 permalink: /
-title: "Jichang Yang (杨佶昌)"
-author_profile: true
-redirect_from: 
+subtitle: 杨佶昌 · Postdoctoral Fellow · Department of Electrical and Computer Engineering, HKU
+redirect_from:
   - /about/
   - /about.html
+profile:
+  align: right
+  image: avatar2.JPG
+  image_circular: false
+  more_info: >
+    <ul class="profile-contact-links">
+      <li><a href="mailto:yangjc100@connect.hku.hk"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>yangjc100@connect.hku.hk</span></a></li>
+      <li><a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li>
+      <li><a href="https://orcid.org/0000-0003-3760-6762"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>
+      <li><a href="https://www.researchgate.net/profile/Jichang-Yang"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a></li>
+      <li><a href="/cv/"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>CV</span></a></li>
+    </ul>
+    <div class="profile-contact-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Haking Wong Building<br>HKU, Hong Kong</span></div>
+selected_papers: false
+social: false
+announcements:
+  enabled: false
+latest_posts:
+  enabled: false
 ---
 
-I am a 4th-year PhD student at The University of Hong Kong (HKU), where I am privileged to be advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. My research lies at the intersection of advanced semiconductor devices and next-generation Edge AI computing systems, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome the hardware bottlenecks that limit efficient inference and on-device learning at the edge.
+I am a Postdoctoral Fellow in the **Department of Electrical and Computer Engineering, The University of Hong Kong (HKU)**, supervised by **Prof. Han Wang**. I am also with the **Center for Advanced Semiconductors and Integrated Circuits (CASIC), HKU**. I passed my PhD oral defense at HKU in September 2026. During my PhD, I was advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. As a first or co-first author, I have papers published or accepted in **Nature Communications**, **Science Advances**, and **Advanced Materials**, and at **IEDM (3 papers)**. My research lies at the intersection of advanced semiconductor devices and next-generation Edge AI computing systems, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome the hardware bottlenecks that limit efficient inference and on-device learning at the edge.
 
 Beyond the chip itself, I build the embedded systems around it, with hands-on experience in circuit design, hardware-software co-design, and control system simulation, drawing on my earlier background in power electronics and motor control. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient edge computing systems.
 
-News
-======
-
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; max-height: 200px; overflow-y: scroll; background-color: #f6f8fa;">
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2026.07] &#127881; Paper titled "Adaptive Redox Resistive Memory Programming for Efficient and Robust Class-Incremental Learning" accepted by Advanced Materials.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2026.04] &#127881; Paper titled "Resistive memory-based neural differential equation solver for score-based diffusion model" accepted by Nature Communications.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2025.05] &#127881; Paper titled "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" accepted by Science Advances.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.12] &#127881; Presented an oral paper at IEDM2024.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.10] &#127942; Awarded Best Poster Award in 2024 Nature Conference on Neuromorphic Computing.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2024.09] &#127942; Awarded Best TA Award for the 2023-24 academic year.
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2022.09] &#127942; Awarded <b>Hong Kong PhD Fellowship (HKPF)</b> and HKU Presidential PhD Scholarship (HKU-PS).
-  </div>
-
-  <div style="background: white; border: 1px solid #d1d5da; padding: 8px; margin-bottom: 8px; border-radius: 4px;">
-    [2022.09] &#127881; I joined The University of Hong Kong as a Ph.D. student.
-  </div>
-
+<div class="research-topics" aria-label="Research interests">
+  <span>In-memory computing</span><span>Resistive memory</span><span>Edge AI</span><span>Analog circuits</span>
 </div>
 
+## News
 
-<div style="margin-top: 20px;"></div>
-
-
-Education
-======
-
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/HKU.jpg" style="width: 60px; height: 60px; margin-right: 20px;">
-  <div style="flex: 1;">
-    <div style="display: flex; justify-content: space-between;">
-      <strong>The University of Hong Kong (HKU)</strong>
-      <span>2022.09 - Present</span>
-    </div>
-    <div style="color: #586069;">Ph.D. Student at Department of Electrical and Computer Engineering (ECE)</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Topics: In-memory computing, resistive memory and analog circuit design</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Advisor: Prof. Zhongrui Wang and Prof. Han Wang</div>
-  </div>
+<div class="news-scroll" tabindex="0" role="region" aria-label="News and updates">
+{% include news-list.liquid %}
 </div>
 
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/CAEMD.png" style="width: 60px; height: 60px; margin-right: 20px;">
-  <div style="flex: 1;">
-    <div style="display: flex; justify-content: space-between;">
-      <strong>Huazhong University of Science and Technology (HUST)</strong>
-      <span>2019.09 - 2022.06</span>
-    </div>
-    <div style="color: #586069;">M.S. at Center for Advanced Electrical Machine and Drives (CAEMD)</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Topics: Active magnetic bearing, control system, power electronics</div>
-    <div style="font-size: 0.9em; margin-top: 5px;">Advisor: Prof. Dong Jiang and Prof. Ronghai Qu</div>
-  </div>
-</div>
+## Selected publications
 
-<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center;">
-  <img src="/images/HUST.png" style="width: 60px; height: 60px; margin-right: 20px;">
-  <div style="flex: 1;">
-    <div style="display: flex; justify-content: space-between;">
-      <strong>Huazhong University of Science and Technology (HUST)</strong>
-      <span>2015.09 - 2019.06</span>
-    </div>
-    <div style="color: #586069;">B.S. at School of Electrical and Electronic Engineering (SEEE)</div>
-  </div>
-</div>
 
-Selected Publications
-======
-*(Below is a highlight, see the full list in the [Publications](/publications/) tab)*
+{% assign selected = site.publications | where: "selected", true | sort: "selected_order" %}
+{% include publication-list.liquid papers=selected compact=true %}
 
-1.  **Jichang Yang**, et al. "Resistive memory-based neural differential equation solver for score-based diffusion model" *Nature Communications*, 2026.
-2.  **Jichang Yang**, et al. "Conditional Diffusion Model Acceleration with First-Demonstrated RRAM-Based In-Memory Neural Differential Equation Solver" *IEEE International Electron Devices Meeting (IEDM)*, 2024.
-3.  Hegan Chen†, **Jichang Yang†**, et al. "Continuous-time digital twin with analog memristive neural ordinary differential equation solver" *Science Advances*, 2025.
-4.  Yi Li†, **Jichang Yang†**, et al. "Adaptive Redox Resistive Memory Programming for Efficient and Robust Class-Incremental Learning" *Advanced Materials*, 2026.
+[View all publications →]({{ '/publications/' | relative_url }})
 
-Contact
-======
-📧 **Email**: [yangjc100@connect.hku.hk](mailto:yangjc100@connect.hku.hk)  
-📍 **Office**: [Room 324/Haking Wong Building], HKU, Hong Kong
-<div style="width: 100%; text-align: center; margin-top: 20px;">
-  <a href='https://mapmyvisitors.com/web/1c2xw'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=2065b5&w=399&t=tt&d=zqh1sNuRVzpChmg191n3YU9G-dKp3QSFrBj1HjRAZdk&co=ffffff&ct=ffffff'/></a>
-</div>
+## Education
+
+{% include education.liquid %}
+
+## Talks
+
+{% include talks-list.liquid %}
+
+## Teaching
+
+{% include teaching-list.liquid %}

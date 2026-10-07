@@ -1,6 +1,8 @@
 ---
 title: "ELEC3350 Electronic circuits and devices I"
 collection: teaching
+academic_year: "2025 - 2026"
+semester: Fall
 type: "Undergraduate course"
 permalink: /teaching/2025-fall-TA
 venue: "The University of Hong Kong, Faculty of Engineering"

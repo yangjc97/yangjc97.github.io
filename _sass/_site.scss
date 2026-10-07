@@ -1,0 +1,95 @@
+/* Site-owned additions. The al-folio core supplies all shared theme styles. */
+:root {
+  --global-theme-color: #176b9a;
+  --global-hover-color: #0b4d73;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #78c4e8;
+  --global-hover-color: #a6dcf4;
+}
+body { line-height: 1.7; }
+.post-header { margin-bottom: 2rem; }
+.post-title { letter-spacing: -0.035em; }
+.post h2 { margin-top: 2.5rem; margin-bottom: 1.1rem; }
+.profile { margin-bottom: 1.5rem; }
+.profile img { border-radius: 0.8rem; }
+.profile .more-info { font-family: inherit; font-size: 0.85rem; color: var(--global-text-color-light); }
+.research-topics { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 2rem; }
+.research-topics span { padding: 0.2rem 0.7rem; border: 1px solid var(--global-divider-color); border-radius: 2rem; font-size: 0.8rem; }
+.paper-list, .event-list { list-style: none; padding: 0; }
+.paper { padding: 1.25rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.paper h3 { font-size: 1.12rem; line-height: 1.5; margin: 0.3rem 0; font-weight: 500; }
+.paper h3 a { color: var(--global-text-color); }
+.paper h3 a:hover { color: var(--global-theme-color); }
+.paper-meta, .event-date { font-size: 0.8rem; color: var(--global-theme-color); margin-bottom: 0.3rem; }
+.paper-meta span, .paper-authors, .contribution-note, .event-location { color: var(--global-text-color-light); }
+.paper-authors { font-size: 0.85rem; margin-bottom: 0.5rem; line-height: 1.6; }
+.paper-authors b { color: var(--global-text-color); }
+.paper-links { display: flex; gap: 1.1rem; font-size: 0.82rem; }
+.paper-with-preview { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 1.5rem; align-items: start; }
+.paper-body { min-width: 0; }
+.paper-preview { display: block; border: 1px solid var(--global-divider-color); border-radius: 0.5rem; overflow: hidden; background: #fff; }
+.paper-preview img { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: contain; padding: 0.5rem; box-sizing: border-box; }
+.paper-preview-inset img { padding: 0.8rem; }
+.event-list li { padding: 0.7rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.event-list h3 { margin: 0.15rem 0 0.2rem; font-size: 0.95rem; line-height: 1.5; }
+.event-list p { margin-bottom: 0; }
+.event-list .event-date { font-size: 0.75rem; }
+.talk-venue { font-size: 0.82rem; line-height: 1.5; }
+.teaching-intro { font-size: 0.9rem; }
+.teaching-list { list-style: none; padding: 0; }
+.teaching-list li { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 1rem; padding: 0.65rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.teaching-period { font-size: 0.82rem; color: var(--global-theme-color); }
+.teaching-period span { display: block; font-size: 0.75rem; color: var(--global-text-color-light); }
+.teaching-course { margin: 0; font-size: 0.9rem; line-height: 1.5; }
+.teaching-award { font-size: 0.82rem; color: var(--global-theme-color); }
+.profile .more-info { overflow-wrap: anywhere; }
+.profile-contact-links { list-style: none; padding: 0; margin: 0 0 1rem; }
+.profile-contact-links li { margin: 0; padding: 0.2rem 0; }
+.profile-contact-links a { display: inline-flex; align-items: center; gap: 0.65rem; color: var(--global-text-color-light); }
+.profile-contact-links a:hover, .profile-contact-links a:focus-visible { color: var(--global-theme-color); }
+.profile-contact-links i { width: 1rem; flex-shrink: 0; text-align: center; font-size: 0.9rem; }
+.profile-contact-links a span { min-width: 0; }
+.profile-contact-address { display: flex; align-items: flex-start; gap: 0.65rem; }
+.profile-contact-address i { width: 1rem; flex-shrink: 0; text-align: center; font-size: 0.9rem; line-height: inherit; }
+.post h2#talks, .post h2#teaching { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+.post h2.publication-year { font-size: 1.6rem; }
+@media (max-width: 575px) {
+  .teaching-list li { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+  .teaching-period span { display: inline; margin-left: 0.5rem; }
+}
+.news-list { margin: 0; }
+.news-list > div { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding: 0.6rem 0; }
+.news-list dt { font-weight: 400; font-size: 0.85rem; color: var(--global-text-color-light); }
+.news-list dd { margin: 0; font-size: 0.9rem; }
+.news-list p { margin: 0; }
+.education-item { display: grid; grid-template-columns: 48px 1fr; gap: 1rem; padding: 1rem 0; }
+.education-item img { object-fit: contain; }
+.education-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.education-heading span { font-size: 0.8rem; white-space: nowrap; color: var(--global-text-color-light); }
+.education-item p { margin: 0.15rem 0; font-size: 0.9rem; }
+.education-detail { color: var(--global-text-color-light); font-size: 0.8rem !important; }
+@media (max-width: 575px) {
+  .paper-with-preview { grid-template-columns: minmax(0, 1fr); gap: 0.8rem; }
+  .paper-preview { width: 100%; max-width: 320px; }
+  .education-heading { flex-direction: column; gap: 0.1rem; }
+  .news-list > div { grid-template-columns: 4.7rem 1fr; gap: 0.5rem; }
+}
+
+.cv-toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem; }
+.cv-updated { color: var(--global-text-color-light); font-size: 0.9rem; margin: 0; }
+.cv-download { display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--global-theme-color); border-radius: 0.4rem; }
+.cv-viewer { display: block; width: 100%; height: 85vh; min-height: 600px; border: 1px solid var(--global-divider-color); border-radius: 0.5rem; background: #fff; }
+.cv-fallback { margin-top: 0.75rem; font-size: 0.85rem; color: var(--global-text-color-light); }
+@media (max-width: 575px) {
+  .cv-viewer { height: 75vh; min-height: 450px; }
+}
+
+.contribution-note { font-size: 0.75rem; line-height: 1.4; margin-bottom: 0.5rem; }
+.paper-authors .author-self { text-decoration: underline; text-underline-offset: 0.15em; }
+.paper-preview-placeholder { aspect-ratio: 8 / 5; border-style: dashed; background: color-mix(in srgb, var(--global-bg-color) 96%, var(--global-text-color)); }
+.news-scroll { max-height: 300px; overflow-y: auto; padding: 0 0.75rem 0 0; scrollbar-width: thin; scrollbar-color: var(--global-text-color-light) transparent; }
+.news-scroll:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+.news-list dd { display: flex; gap: 0.6rem; }
+.news-emoji { flex: 0 0 1.2rem; }
+.news-list dd > div { min-width: 0; }

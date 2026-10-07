@@ -1,6 +1,11 @@
 ---
 title: "Resistive memory-based neural differential equation solver for score-based diffusion model"
 collection: publications
+year_priority: 3
+selected: true
+selected_order: 3
+preview: /assets/img/publications/NC-2026.png
+preview_alt: "Time-continuous neural network voltage waveforms for the RRAM diffusion model solver"
 category: journals
 permalink: /publication/2-NC-diffusion
 date: 2026-05-12

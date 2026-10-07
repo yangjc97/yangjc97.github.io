@@ -1,0 +1,10 @@
+<p class="teaching-intro">Teaching assistant at The University of Hong Kong.</p>
+{% assign courses = site.teaching | sort: 'date' | reverse %}
+<ol class="teaching-list">
+{% for course in courses %}
+  <li>
+    <div class="teaching-period">{{ course.academic_year }}<span>{{ course.semester }} · {{ course.type }}</span></div>
+    <p class="teaching-course">{% if course.award %}<strong>{{ course.title | escape }}</strong> <span class="teaching-award">({{ course.award | escape }})</span>{% else %}{{ course.title | escape }}{% endif %}</p>
+  </li>
+{% endfor %}
+</ol>

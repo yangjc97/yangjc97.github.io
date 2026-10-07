@@ -1,0 +1,13 @@
+<div class="education-list">
+{% for item in site.data.education %}
+  <div class="education-item">
+    <img src="{{ item.logo | prepend: '/assets/img/' | relative_url }}" alt="{{ item.abbreviation }}" width="48" height="48" loading="lazy">
+    <div>
+      <div class="education-heading"><strong>{{ item.institution }}</strong><span>{{ item.period }}</span></div>
+      <p>{{ item.degree }}</p>
+      {% if item.topics %}<p class="education-detail">{{ item.topics }}</p>{% endif %}
+      {% if item.advisors %}<p class="education-detail">Advisors: {{ item.advisors }}</p>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>

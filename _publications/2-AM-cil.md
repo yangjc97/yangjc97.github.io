@@ -1,6 +1,11 @@
 ---
 title: "Adaptive Redox Resistive Memory Programming for Efficient and Robust Class-Incremental Learning"
 collection: publications
+year_priority: 4
+selected: true
+selected_order: 6
+preview: /assets/img/publications/AM-2026.png
+preview_alt: "Class-incremental learning for edge vision using a neuromorphic computing accelerator"
 category: journals
 permalink: /publication/2-AM-cil
 date: 2026-07-20

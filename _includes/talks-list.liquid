@@ -1,0 +1,10 @@
+{% assign talks = site.talks | sort: 'date' | reverse %}
+<ol class="event-list talks-list">
+{% for talk in talks %}
+<li><p class="event-date">{{ talk.date | date: '%b %d, %Y' }} · {{ talk.type }}</p>
+<h3>{{ talk.title | escape }}</h3>
+<p class="talk-venue">{{ talk.venue }} · <span class="event-location">{{ talk.location }}</span></p>
+{{ talk.content | markdownify }}
+</li>
+{% endfor %}
+</ol>

@@ -1,0 +1,7 @@
+{% assign news = site.news | sort: 'date' | reverse %}
+{% assign offset = include.offset | default: 0 %}
+<dl class="news-list">
+{% for item in news limit: include.limit offset: offset %}
+  <div><dt>{% if item.date_label %}{{ item.date_label | escape }}{% else %}{{ item.date | date: '%b %Y' }}{% endif %}</dt><dd><span class="news-emoji" aria-hidden="true">{{ item.emoji | default: "📰" }}</span><div>{{ item.content | markdownify }}</div></dd></div>
+{% endfor %}
+</dl>
