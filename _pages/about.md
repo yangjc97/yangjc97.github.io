@@ -16,9 +16,8 @@ profile:
       <li><a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li>
       <li><a href="https://orcid.org/0000-0003-3760-6762"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>
       <li><a href="https://www.researchgate.net/profile/Jichang-Yang"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a></li>
-      <li><a href="/cv/"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>CV</span></a></li>
     </ul>
-    <div class="profile-contact-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Haking Wong Building<br>HKU, Hong Kong</span></div>
+    <div class="profile-contact-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Dept. of ECE, HKU</span></div>
 selected_papers: false
 social: false
 announcements:

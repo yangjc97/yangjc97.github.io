@@ -13,6 +13,10 @@ body { line-height: 1.7; }
 .post h2 { margin-top: 2.5rem; margin-bottom: 1.1rem; }
 .profile { margin-bottom: 1.5rem; }
 .profile img { border-radius: 0.8rem; }
+@media (min-width: 576px) {
+  .profile { width: 27%; }
+}
+.post h2#news { clear: both; }
 .profile .more-info { font-family: inherit; font-size: 0.85rem; color: var(--global-text-color-light); }
 .research-topics { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 2rem; }
 .research-topics span { padding: 0.2rem 0.7rem; border: 1px solid var(--global-divider-color); border-radius: 2rem; font-size: 0.8rem; }
