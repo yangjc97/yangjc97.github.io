@@ -97,3 +97,132 @@ body { line-height: 1.7; }
 .news-list dd { display: flex; gap: 0.6rem; }
 .news-emoji { flex: 0 0 1.2rem; }
 .news-list dd > div { min-width: 0; }
+
+/* Shared visual treatment for the local preview. */
+:root {
+  --site-panel-bg: #f9fbfd;
+  --site-panel-border: #e8eef4;
+  --site-accent-bg: #f2f7fc;
+  --site-award-bg: #fff5da;
+  --site-award-text: #785a13;
+  --site-card-shadow: 0 5px 20px rgb(24 62 91 / 5%);
+}
+html[data-theme="dark"] {
+  --site-panel-bg: #202b36;
+  --site-panel-border: #354656;
+  --site-accent-bg: #263d50;
+  --site-award-bg: #3b3322;
+  --site-award-text: #eed08a;
+  --site-card-shadow: none;
+}
+.post-header { padding-bottom: 1.3rem; border-bottom: 1px solid var(--site-panel-border); }
+.post-title { color: var(--global-text-color); font-weight: 600; }
+.post-header .desc { color: var(--global-theme-color); font-size: 0.95rem; margin-bottom: 0; }
+.research-emphasis { color: var(--global-theme-color); font-weight: 500; }
+.profile {
+  box-sizing: border-box;
+  padding: 0.7rem;
+  border: 1px solid var(--site-panel-border);
+  border-radius: 1rem;
+  background: var(--global-bg-color);
+  box-shadow: var(--site-card-shadow);
+}
+.profile img { box-shadow: none; border-radius: 0.65rem; }
+.profile .more-info { padding: 0.5rem 0.2rem 0.2rem; font-size: 0.8rem; }
+.profile-contact-links { margin-bottom: 0.7rem; }
+.profile-contact-links li { padding: 0.25rem 0; }
+.profile-contact-links i, .profile-contact-address i { color: var(--global-theme-color); }
+.profile-contact-address { padding-top: 0.65rem; border-top: 1px solid var(--site-panel-border); }
+.research-topics { gap: 0.55rem; }
+.research-topics span {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--site-accent-bg);
+  color: var(--global-theme-color);
+  border-color: var(--site-panel-border);
+  font-weight: 500;
+}
+.research-topics i { font-size: 0.8rem; }
+.post h2.section-heading {
+  display: flex; align-items: center; gap: 0.75rem;
+  font-size: 1.55rem; font-weight: 500; letter-spacing: -0.025em;
+  margin-top: 2.8rem; margin-bottom: 1.1rem;
+}
+.section-heading > i {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.2rem; height: 2.2rem; flex-shrink: 0;
+  color: var(--global-theme-color); background: var(--site-accent-bg);
+  border-radius: 0.6rem; font-size: 1rem;
+}
+.news-scroll, .education-list, .talks-list, .teaching-list {
+  border: 1px solid var(--site-panel-border);
+  border-radius: 0.9rem;
+  background: var(--site-panel-bg);
+  padding: 0.85rem 1.25rem;
+}
+.news-scroll { padding: 0.7rem 1.25rem; }
+.news-list > div { padding: 0.85rem 0; border-bottom: 1px solid var(--site-panel-border); }
+.news-list > div:last-child { border-bottom: 0; }
+.news-list dt { color: var(--global-theme-color); font-size: 0.8rem; font-weight: 500; }
+.news-list dd { font-size: 0.87rem; }
+.paper-list-selected { display: grid; gap: 1rem; }
+.paper-list-selected .paper {
+  padding: 1.15rem; border: 1px solid var(--site-panel-border);
+  border-radius: 0.9rem; background: var(--global-bg-color);
+  box-shadow: var(--site-card-shadow);
+}
+.paper-list-selected .paper-with-preview { grid-template-columns: 200px minmax(0, 1fr); gap: 1.35rem; }
+.paper-list-selected .paper-preview { background: #fff; border-color: var(--site-panel-border); }
+.paper h3 { font-weight: 600; font-size: 1.05rem; }
+.paper-meta { font-weight: 500; }
+.paper-meta span { font-weight: 400; }
+.paper-links a {
+  display: inline-block; padding: 0.1rem 0.6rem;
+  border-radius: 0.35rem; background: var(--site-accent-bg);
+  border: 1px solid var(--site-panel-border); font-size: 0.78rem;
+}
+.education-list { position: relative; padding-left: 2rem; }
+.education-item { position: relative; padding: 1rem 0 1rem 1.15rem; }
+.education-item::before {
+  content: ""; position: absolute; top: 1.35rem; left: -0.4rem;
+  width: 0.55rem; height: 0.55rem; border-radius: 50%;
+  background: var(--global-theme-color); box-shadow: 0 0 0 4px var(--site-accent-bg);
+  z-index: 1;
+}
+.education-item:not(:last-child)::after {
+  content: ""; position: absolute; top: 1.7rem; bottom: -1.4rem; left: -0.17rem;
+  border-left: 1px solid var(--site-panel-border);
+}
+.education-item img { padding: 0.2rem; border-radius: 0.4rem; background: #fff; }
+.education-heading strong { font-size: 0.96rem; }
+.education-heading span {
+  font-size: 0.75rem; color: var(--global-theme-color);
+  padding: 0.1rem 0.5rem; border-radius: 0.35rem; background: var(--site-accent-bg);
+}
+.event-list li { padding: 0.95rem 0; border-color: var(--site-panel-border); }
+.event-list li:last-child, .teaching-list li:last-child { border-bottom: 0; }
+.event-list .event-date { font-weight: 500; }
+.event-list h3 { font-weight: 500; }
+.teaching-list li { padding: 0.95rem 0; border-color: var(--site-panel-border); }
+.teaching-award {
+  display: inline-block; color: var(--site-award-text); background: var(--site-award-bg);
+  border-radius: 0.35rem; padding: 0.1rem 0.45rem; margin-top: 0.2rem; font-size: 0.75rem;
+}
+.cv-toolbar {
+  padding: 1rem 1.25rem; border-radius: 0.75rem;
+  border: 1px solid var(--site-panel-border); background: var(--site-panel-bg);
+}
+.cv-download { background: var(--global-theme-color); color: var(--global-bg-color); font-weight: 500; }
+.cv-download:hover, .cv-download:focus-visible { background: var(--global-hover-color); color: var(--global-bg-color); }
+.cv-viewer { box-shadow: var(--site-card-shadow); }
+@media (max-width: 575px) {
+  .profile { max-width: 300px; margin: 0 auto 1.5rem; }
+  .profile.float-right, .profile.float-left { float: none; margin-left: auto; margin-right: auto; }
+  .post h2.section-heading { font-size: 1.35rem; }
+  .news-scroll, .talks-list, .teaching-list { padding-left: 0.85rem; padding-right: 0.85rem; }
+  .paper-list-selected .paper-with-preview { grid-template-columns: minmax(0, 1fr); gap: 0.85rem; }
+  .paper-list-selected .paper { padding: 0.9rem; }
+  .education-list { padding-left: 1.3rem; padding-right: 0.85rem; }
+  .education-item { grid-template-columns: 40px minmax(0, 1fr); gap: 0.75rem; }
+  .education-item img { width: 40px; height: 40px; }
+}

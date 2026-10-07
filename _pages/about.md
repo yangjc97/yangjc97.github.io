@@ -26,21 +26,24 @@ latest_posts:
   enabled: false
 ---
 
-I am a Postdoctoral Fellow in the **Department of Electrical and Computer Engineering, The University of Hong Kong (HKU)**, supervised by **Prof. Han Wang**. I am also with the **Center for Advanced Semiconductors and Integrated Circuits (CASIC), HKU**. I passed my PhD oral defense at HKU in September 2026. During my PhD, I was advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. As a first or co-first author, I have papers published or accepted in **Nature Communications**, **Science Advances**, and **Advanced Materials**, and at **IEDM (3 papers)**. My research lies at the intersection of advanced semiconductor devices and next-generation Edge AI computing systems, with a specific focus on in-memory computing. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome the hardware bottlenecks that limit efficient inference and on-device learning at the edge.
+I am a Postdoctoral Fellow in the **Department of Electrical and Computer Engineering, The University of Hong Kong (HKU)**, supervised by **Prof. Han Wang**. I am also with the **Center for Advanced Semiconductors and Integrated Circuits (CASIC), HKU**. During my PhD, I was advised by **Prof. Han Wang** and **Prof. Zhongrui Wang**. As a first or co-first author, I have papers published or accepted in **Nature Communications**, **Science Advances**, and **Advanced Materials**, and at **IEDM (3 papers)**. My research lies at the intersection of advanced semiconductor devices and next-generation Edge AI computing systems, with a specific focus on <span class="research-emphasis">in-memory computing</span>. My current work involves the circuit-level optimization of RRAM-based in-memory computing systems, aiming to overcome the hardware bottlenecks that limit efficient inference and on-device learning at the edge.
 
-Beyond the chip itself, I build the embedded systems around it, with hands-on experience in circuit design, hardware-software co-design, and control system simulation, drawing on my earlier background in power electronics and motor control. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient edge computing systems.
+Beyond the chip itself, I build the embedded systems around it, with hands-on experience in circuit design, <span class="research-emphasis">hardware-software co-design</span>, and control system simulation, drawing on my earlier background in power electronics and motor control. I aim to empower traditional industrial frameworks by integrating the intelligent capabilities of in-memory computing, leveraging the synergistic strengths of both to build smarter and more efficient edge computing systems.
 
 <div class="research-topics" aria-label="Research interests">
-  <span>In-memory computing</span><span>Resistive memory</span><span>Edge AI</span><span>Analog circuits</span>
+  <span><i class="fa-solid fa-microchip" aria-hidden="true"></i>In-memory computing</span>
+  <span><i class="fa-solid fa-layer-group" aria-hidden="true"></i>Resistive memory</span>
+  <span><i class="fa-solid fa-network-wired" aria-hidden="true"></i>Edge AI</span>
+  <span><i class="fa-solid fa-wave-square" aria-hidden="true"></i>Analog circuits</span>
 </div>
 
-## News
+<h2 id="news" class="section-heading"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i>News</h2>
 
 <div class="news-scroll" tabindex="0" role="region" aria-label="News and updates">
 {% include news-list.liquid %}
 </div>
 
-## Selected publications
+<h2 id="selected-publications" class="section-heading"><i class="fa-solid fa-book-open" aria-hidden="true"></i>Selected publications</h2>
 
 
 {% assign selected = site.publications | where: "selected", true | sort: "selected_order" %}
@@ -48,14 +51,14 @@ Beyond the chip itself, I build the embedded systems around it, with hands-on ex
 
 [View all publications →]({{ '/publications/' | relative_url }})
 
-## Education
+<h2 id="education" class="section-heading"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Education</h2>
 
 {% include education.liquid %}
 
-## Talks
+<h2 id="talks" class="section-heading"><i class="fa-solid fa-microphone" aria-hidden="true"></i>Talks</h2>
 
 {% include talks-list.liquid %}
 
-## Teaching
+<h2 id="teaching" class="section-heading"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>Teaching</h2>
 
 {% include teaching-list.liquid %}
