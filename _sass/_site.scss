@@ -260,3 +260,17 @@ html[data-theme="dark"] {
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }
+
+footer.sticky-bottom { padding-top: 1rem; padding-bottom: 1rem; }
+footer.sticky-bottom .footer-with-map {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.footer-visitor-map { flex: 0 0 220px; }
+.footer-visitor-map img { display: block; width: 220px; max-width: 100%; height: auto; }
+.footer-copyright { flex: 1; text-align: center; font-size: 0.85rem; }
+@media (max-width: 767px) {
+  footer.sticky-bottom .footer-with-map { flex-direction: column; gap: 0.65rem; }
+  .footer-visitor-map { flex: none; }
+}
