@@ -67,7 +67,7 @@ To rebuild both versions and synchronize only the public PDF to this website:
 python3 ../CV/build.py --sync
 ```
 
-The public PDF is stored locally at `assets/pdf/CV_public.pdf`; `_data/cv.yml` records its path and update date. The CV is temporarily hidden: `_pages/cv.html` has `nav: false` and `published: false`, and `_config.yml` excludes `assets/pdf/CV_public.pdf` from deployment. To restore it, set `nav: true`, remove `published: false`, and remove the PDF exclusion. The full CV stays outside the website.
+The public PDF is stored at `assets/pdf/CV_public.pdf`; `_data/cv.yml` records its path and update date. The superseded PDF has been removed; only the public CV is included in the website.
 
 ## Build and verify
 
