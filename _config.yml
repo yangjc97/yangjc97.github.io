@@ -75,6 +75,8 @@ future: true
 timezone: Asia/Hong_Kong
 include: ["_pages"]
 exclude:
+  # CV is temporarily hidden; retain the PDF locally for later restoration.
+  - assets/pdf/CV_public.pdf
   - Curriculum_Vitae___Jichang_Yang-2.pdf
   - README.md
   - LICENSE
