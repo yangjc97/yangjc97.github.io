@@ -10,7 +10,7 @@
     <div class="paper-preview paper-preview-placeholder" aria-hidden="true"></div>
     {% endif %}
     <div class="paper-body">
-    <div class="paper-meta">{{ paper.venue | escape }} <span>· {{ paper.date | date: '%Y' }}{% if paper.status %} · {{ paper.status | escape }}{% endif %}</span></div>
+    <div class="paper-meta">{% if paper.category == 'journals' %}<em>{{ paper.venue | escape }}</em>{% else %}{{ paper.venue | escape }}{% endif %} <span>· {{ paper.date | date: '%Y' }}{% if paper.status %} · {{ paper.status | escape }}{% endif %}</span></div>
     <h3>{% if paper.paperurl %}<a href="{{ paper.paperurl }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
     {% assign authors = paper.excerpt | replace: '<b>Jichang Yang', '<b class="author-self">Jichang Yang' %}
     {% if include.compact %}

@@ -175,6 +175,7 @@ html[data-theme="dark"] {
 .paper-list-selected .paper-preview { background: #fff; border-color: var(--site-panel-border); }
 .paper h3 { font-weight: 400; font-size: 1.05rem; }
 .paper-meta { font-weight: 500; }
+.paper-meta em { color: inherit; }
 .paper-meta span { font-weight: 400; }
 .paper-links a {
   display: inline-block; padding: 0.1rem 0.6rem;

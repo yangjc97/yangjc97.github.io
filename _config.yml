@@ -11,8 +11,8 @@ contact_note: Email is the best way to reach me.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
   <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-icon: favicon.svg
-apple_touch_icon: apple-touch-icon-180x180.png
+icon: favicon-yjc-64.png
+apple_touch_icon: apple-touch-icon-yjc-180.png
 og_image: /assets/img/avatar.png
 serve_og_meta: true
 serve_schema_org: true
