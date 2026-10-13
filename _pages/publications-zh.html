@@ -1,0 +1,19 @@
+---
+lang: zh-CN
+translation_url: /publications/
+layout: page
+title: 论文成果
+permalink: /zh/publications/
+nav: true
+nav_order: 1
+---
+{% assign papers = site.publications | where_exp: 'paper', 'paper.published != false' | sort: 'date' | reverse %}
+{% assign years = papers | group_by_exp: 'paper', "paper.date | date: '%Y'" %}
+<p>也可在 <a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ">Google Scholar 查看我的论文 ↗</a>。</p>
+{% for year in years %}
+<h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
+{% assign prioritized = year.items | where_exp: 'paper', 'paper.year_priority != nil' | sort: 'year_priority' %}
+{% assign remaining = year.items | where_exp: 'paper', 'paper.year_priority == nil' %}
+{% assign ordered = prioritized | concat: remaining %}
+{% include publication-list.liquid papers=ordered %}
+{% endfor %}

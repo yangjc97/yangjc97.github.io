@@ -274,3 +274,74 @@ footer.sticky-bottom .footer-with-map {
   footer.sticky-bottom .footer-with-map { flex-direction: column; gap: 0.65rem; }
   .footer-visitor-map { flex: none; }
 }
+
+/* Chinese pages use local CJK fonts without an additional font download. */
+html[lang="zh-CN"] body { font-family: "Roboto", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+html[lang="zh-CN"] .post-title, html[lang="zh-CN"] .section-heading { letter-spacing: normal; }
+html[lang="zh-CN"] .news-list > div { grid-template-columns: 6.6rem minmax(0, 1fr); }
+@media (max-width: 575px) {
+  html[lang="zh-CN"] .news-list > div { grid-template-columns: 5.8rem minmax(0, 1fr); }
+}
+
+/* Align navigation controls; keep interaction feedback subtle. */
+#navbar .navbar-menu-list { gap: 0.45rem; }
+#navbar .navbar-menu-list > .nav-item {
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+}
+#navbar .navbar-menu-list > .nav-item > .nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  white-space: nowrap;
+  border-radius: 0.45rem;
+  cursor: pointer;
+}
+#navbar .navbar-menu-list > .section-dropdown > .nav-link { padding-right: 0.3rem; }
+#navbar .section-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-width: 1.5rem;
+  height: 2.25rem;
+  padding: 0 0.35rem 0 0.15rem;
+  border-radius: 0.4rem;
+}
+#navbar .navbar-menu-list > .nav-item:hover,
+#navbar .navbar-menu-list > .nav-item:focus-within {
+  background: var(--site-accent-bg);
+}
+#navbar .navbar-menu-list > .nav-item > .nav-link:focus-visible,
+#navbar .section-menu-toggle:focus-visible,
+#navbar #light-toggle:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+#navbar #light-toggle {
+  transform: none;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+}
+#navbar #light-toggle:hover { background: var(--site-accent-bg); }
+#navbar .toggle-container { display: flex; align-items: center; }
+@media (min-width: 576px) {
+  #navbar .navbar-menu-list { align-items: center; }
+}
+@media (max-width: 575px) {
+  #navbar .navbar-menu-list { align-items: flex-start; padding-top: 0.6rem; }
+  #navbar .section-menu { margin: 0.25rem; }
+}
+
+.cv-downloads { display: flex; flex-wrap: wrap; gap: 0.65rem; }

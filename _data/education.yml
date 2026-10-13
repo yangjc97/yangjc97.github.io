@@ -5,6 +5,10 @@
   degree: Ph.D., Electrical and Computer Engineering
   topics: In-memory computing, resistive memory and analog circuit design
   advisors: Prof. Han Wang and Prof. Zhongrui Wang
+  institution_zh: 香港大学
+  degree_zh: 博士，电机与计算机工程
+  topics_zh: 存内计算、忆阻器与模拟电路设计
+  advisors_zh: 汪涵教授、王中锐教授
 - institution: Huazhong University of Science and Technology
   abbreviation: HUST
   logo: CAEMD.png
@@ -12,8 +16,14 @@
   degree: M.S., Center for Advanced Electrical Machine and Drives
   topics: Active magnetic bearing, control systems and power electronics
   advisors: Prof. Dong Jiang and Prof. Ronghai Qu
+  institution_zh: 华中科技大学
+  degree_zh: 硕士，应用电子工程系
+  topics_zh: 主动磁轴承、控制系统与电力电子
+  advisors_zh: 蒋栋教授、曲荣海教授
 - institution: Huazhong University of Science and Technology
   abbreviation: HUST
   logo: HUST.png
   period: 2015.09 – 2019.06
   degree: B.S., Electrical and Electronic Engineering
+  institution_zh: 华中科技大学
+  degree_zh: 学士，电气工程及其自动化

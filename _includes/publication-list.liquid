@@ -10,7 +10,7 @@
     <div class="paper-preview paper-preview-placeholder" aria-hidden="true"></div>
     {% endif %}
     <div class="paper-body">
-    <div class="paper-meta">{% if paper.category == 'journals' %}<em>{{ paper.venue | escape }}</em>{% else %}{{ paper.venue | escape }}{% endif %} <span>· {{ paper.date | date: '%Y' }}{% if paper.status %} · {{ paper.status | escape }}{% endif %}</span></div>
+    <div class="paper-meta">{% if paper.category == 'journals' %}<em>{{ paper.venue | escape }}</em>{% else %}{{ paper.venue | escape }}{% endif %} <span>· {{ paper.date | date: '%Y' }}{% if paper.status %} · {% if page.lang == 'zh-CN' and paper.status == 'Accepted' %}已接收{% else %}{{ paper.status | escape }}{% endif %}{% endif %}</span></div>
     <h3>{% if paper.paperurl %}<a href="{{ paper.paperurl }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
     {% assign authors = paper.excerpt | replace: '<b>Jichang Yang', '<b class="author-self">Jichang Yang' %}
     {% if include.compact %}
@@ -21,7 +21,7 @@
       <p class="paper-authors">{{ authors }}</p>
     {% endif %}
     <div class="paper-links">
-      {% if paper.paperurl %}<a href="{{ paper.paperurl }}">Paper ↗</a>{% endif %}
+      {% if paper.paperurl %}<a href="{{ paper.paperurl }}">{% if page.lang == 'zh-CN' %}论文链接{% else %}Paper{% endif %} ↗</a>{% endif %}
     </div>
     </div>
   </li>

@@ -16,10 +16,10 @@ class Links(HTMLParser):
                 self.urls.append(value)
 
 errors = []
-for private_file in ("CV_full.pdf", "CV_content.tex", "CV_full.tex", "CV_latex", "Curriculum_Vitae___Jichang_Yang-2.pdf"):
+for private_file in ("CV_full.pdf", "CV_full_zh.pdf", "CV_content.tex", "CV_content_zh.tex", "CV_full.tex", "CV_full_zh.tex", "CV_latex", "Curriculum_Vitae___Jichang_Yang-2.pdf"):
     if any(root.rglob(private_file)):
         errors.append(f"Private or superseded CV content copied into website: {private_file}")
-for required in ("index.html", "publications/index.html", "cv/index.html", "404.html", "sitemap.xml", "robots.txt", "assets/css/main.css", "assets/css/tailwind.css"):
+for required in ("index.html", "publications/index.html", "cv/index.html", "zh/index.html", "zh/publications/index.html", "zh/cv/index.html", "404.html", "sitemap.xml", "robots.txt", "assets/css/main.css", "assets/css/tailwind.css", "assets/pdf/CV_public.pdf", "assets/pdf/CV_public_zh.pdf"):
     if not (root / required).is_file():
         errors.append(f"Missing {required}")
 if (root / "publication").exists() or (root / "publications" / "2-IEDM-2024").exists():

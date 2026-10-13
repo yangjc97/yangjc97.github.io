@@ -38,7 +38,7 @@ docker compose up --build
 
 Published papers are grouped by year, newest first. Within each year, `year_priority` sets the display order (smaller numbers first): first-listed and equal-contribution papers come first, ordered by Jichang Yang’s author position; ties retain the preferred IEDM order or use venue priority. Other co-authored papers use an editorial venue order, with author position as a tie-breaker. The current co-author preferences are Science Advances before Cyborg and Bionic Systems, and IEEE Transactions on Power Electronics before IEEE Transactions on Magnetics. New records without `year_priority` follow the explicitly ordered papers, newest first. `selected: true` and `selected_order` control homepage highlights. Author lists retain the original equal-contribution and corresponding-author marks. Set `published: false` to keep a manuscript out of the generated website. Liquid comment blocks continue to protect withheld abstracts. Individual publication and teaching pages are disabled; the records remain as data for the lists. The old Talks, Teaching and News page URLs redirect to the matching About sections.
 
-This site deliberately keeps Markdown publication records instead of adding a second BibTeX database and Jekyll Scholar dependency. Shared layouts, styles, navigation and dark mode come from the official al-folio gem. The site defaults to light mode on first visit, retains saved theme choices, and keeps the theme toggle available. Site-owned overrides are limited to content snippets, the base page layout (removing the unused bibliography tag), `main.scss` (adding the custom style import), and `assets/js/theme.js` (changing the initial theme from system to light). The overrides were based on core 1.0.15; review them when updating the core gem.
+This site deliberately keeps Markdown publication records instead of adding a second BibTeX database and Jekyll Scholar dependency. Shared layouts, styles, navigation and dark mode come from the official al-folio gem. The site defaults to light mode on first visit, retains saved light/dark choices, and toggles only between light and dark. Previously saved system settings fall back to light. Site-owned overrides are limited to content snippets, the base page layout (removing the unused bibliography tag), `main.scss` (adding the custom style import), and `assets/js/theme.js` (defaulting to light and using a two-state light/dark toggle). The overrides were based on core 1.0.15; review them when updating the core gem.
 
 ## Publication images
 
@@ -57,17 +57,17 @@ Use a chip photo, a system diagram or a representative result figure. PNG, JPEG,
 
 The main navigation is **About → Publications → CV**. About includes biography, a scrollable news panel above the highlights, education, talks and teaching. News entries use `emoji` and can set `date_label` when only a year is known. Paper announcements record `author_role` and use a short research topic instead of the full title, followed by the role in parentheses. The first-listed author is shown as First author; other equal-contribution authors as Co-first author; other collaborators as Co-author. The biography lists the Department of Electrical and Computer Engineering, HKU as the primary postdoctoral affiliation, with CASIC, HKU as the secondary affiliation. Contact details are directly below the portrait. Teaching records specify `academic_year` and `semester`; the 2023–2024 Spring course is marked `award: Awarded Best TA`. Publications contains all public papers with external links, without abstract/detail pages.
 
-CV embeds the original PDF in the browser’s PDF viewer, so all document pages are available. It provides Download PDF and an open-in-new-tab fallback for browsers that do not support embedded PDFs.
+CV embeds the original PDF in the browser’s PDF viewer, so all document pages are available. It provides a PDF download in the page’s language and an open-in-new-tab fallback for browsers that do not support embedded PDFs.
 
 The CV sources live in the separate sibling `../CV/` directory. `CV_full.pdf` includes manuscripts under review; `CV_public.pdf` omits them. Both are built from `CV_content.tex` and `publications.bib`.
 
-To rebuild both versions and synchronize only the public PDF to this website:
+To rebuild both languages (full/public) and synchronize their public PDFs to this website:
 
 ```sh
 python3 ../CV/build.py --sync
 ```
 
-The public PDF is stored at `assets/pdf/CV_public.pdf`; `_data/cv.yml` records its path and update date. The superseded PDF has been removed; only the public CV is included in the website.
+The public PDFs are stored at `assets/pdf/CV_public.pdf` and `assets/pdf/CV_public_zh.pdf`; `_data/cv.yml` records their paths and per-language update dates. The superseded PDF has been removed; only the public CV is included in the website.
 
 ## Build and verify
 
@@ -91,3 +91,20 @@ The sitemap is generated at `/sitemap.xml`, and `/robots.txt` advertises it. For
 Migrated from Academic Pages to [al-folio](https://github.com/alshedivat/al-folio). Removed sample attachments, comments, generator examples, unused CV tooling, copied theme internals and the large Plotly bundle. The old visitor-map embed was removed from the homepage. Personal content remains in the existing collections; the Git history retains the previous implementation.
 
 al-folio is MIT licensed. The former Academic Pages license is retained in `LICENSE` for attribution.
+
+## Chinese website
+
+English pages remain at `/`, `/publications/`, and `/cv/`; simplified Chinese pages
+are at `/zh/`, `/zh/publications/`, and `/zh/cv/`. The navigation language switch
+links to the matching page and retains the section anchor.
+
+- `_pages/about-zh.md`: Chinese biography and homepage headings.
+- `_data/i18n.yml`: Navigation labels.
+- `_data/education.yml`: Chinese fields with the `_zh` suffix.
+- `_news/*.md`: `content_zh` contains translated announcements.
+- `_talks/*.md`: `type_zh`, `venue_zh`, and `location_zh` localize report information.
+- Publication titles, authors, venues, shortened author lists, and course titles remain in English.
+- Each CV page embeds and downloads only the public PDF in its own language.
+
+`_layouts/default.liquid` is a local override based on core 1.0.15 that sets
+page-level language and alternate-language links. Review it when upgrading the theme.

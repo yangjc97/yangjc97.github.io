@@ -1,10 +1,10 @@
-<p class="teaching-intro">Teaching assistant at The University of Hong Kong.</p>
+<p class="teaching-intro">{% if page.lang == 'zh-CN' %}在香港大学担任以下课程的助教。{% else %}Teaching assistant at The University of Hong Kong.{% endif %}</p>
 {% assign courses = site.teaching | sort: 'date' | reverse %}
 <ol class="teaching-list">
 {% for course in courses %}
   <li>
-    <div class="teaching-period">{{ course.academic_year }}<span>{{ course.semester }} · {{ course.type }}</span></div>
-    <p class="teaching-course">{% if course.award %}<strong>{{ course.title | escape }}</strong> <span class="teaching-award">({{ course.award | escape }})</span>{% else %}{{ course.title | escape }}{% endif %}</p>
+    <div class="teaching-period">{{ course.academic_year }}<span>{% if page.lang == 'zh-CN' %}{% if course.semester == 'Fall' %}秋季{% else %}春季{% endif %} · {% if course.type == 'Graduate course' %}研究生课程{% else %}本科课程{% endif %}{% else %}{{ course.semester }} · {{ course.type }}{% endif %}</span></div>
+    <p class="teaching-course">{% if course.award %}<strong>{{ course.title | escape }}</strong> <span class="teaching-award">({% if page.lang == 'zh-CN' %}获最佳助教奖{% else %}{{ course.award | escape }}{% endif %})</span>{% else %}{{ course.title | escape }}{% endif %}</p>
   </li>
 {% endfor %}
 </ol>

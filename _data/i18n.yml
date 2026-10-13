@@ -1,0 +1,30 @@
+en:
+  about: About
+  publications: Publications
+  cv: CV
+  overview: Overview
+  news: News
+  selected: Selected Papers
+  education: Education
+  talks: Talks
+  teaching: Teaching
+  nav_toggle: Toggle navigation
+  section_toggle: Show sections
+  theme: Change color theme
+  paper: Paper
+  accepted: Accepted
+zh-CN:
+  about: 关于我
+  publications: 论文成果
+  cv: 简历
+  overview: 个人简介
+  news: 最新动态
+  selected: 代表论文
+  education: 教育经历
+  talks: 学术报告
+  teaching: 教学经历
+  nav_toggle: 展开或收起导航
+  section_toggle: 展开或收起章节导航
+  theme: 切换颜色主题
+  paper: 论文链接
+  accepted: 已接收

@@ -1,3 +1,5 @@
-# Updated by ../CV/build.py --sync after compiling the public CV.
+# Updated by ../CV/build.py --sync; only public PDFs are synchronized.
 pdf_path: /assets/pdf/CV_public.pdf
-updated: 2026-10-07
+updated: 2026-10-13
+pdf_path_zh: /assets/pdf/CV_public_zh.pdf
+updated_zh: 2026-10-13

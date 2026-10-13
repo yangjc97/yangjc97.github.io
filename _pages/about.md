@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_url: /zh/
 layout: about
 title: About
 permalink: /

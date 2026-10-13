@@ -1,0 +1,20 @@
+{% assign cv_en_url = site.data.cv.pdf_path | relative_url %}
+{% assign cv_zh_url = site.data.cv.pdf_path_zh | relative_url %}
+{% assign cv_url = cv_en_url %}
+{% assign cv_updated = site.data.cv.updated %}
+{% if page.lang == 'zh-CN' %}
+  {% assign cv_url = cv_zh_url %}
+  {% assign cv_updated = site.data.cv.updated_zh %}
+{% endif %}
+<div class="cv-toolbar">
+  <p class="cv-updated">{% if page.lang == 'zh-CN' %}更新日期：{% else %}Last updated: {% endif %}<time datetime="{{ cv_updated | date: '%Y-%m-%d' }}">{% if page.lang == 'zh-CN' %}{{ cv_updated | date: '%Y 年 %-m 月 %-d 日' }}{% else %}{{ cv_updated | date: '%B %d, %Y' }}{% endif %}</time></p>
+  <div class="cv-downloads">
+    {% if page.lang == 'zh-CN' %}
+      <a class="cv-download" href="{{ cv_zh_url }}" download="Jichang_Yang_CV_zh.pdf" hreflang="zh-CN">下载中文 CV ↓</a>
+    {% else %}
+      <a class="cv-download" href="{{ cv_en_url }}" download="Jichang_Yang_CV_en.pdf" hreflang="en">Download English CV ↓</a>
+    {% endif %}
+  </div>
+</div>
+<iframe class="cv-viewer" src="{{ cv_url }}#view=FitH" title="{% if page.lang == 'zh-CN' %}杨佶昌的中文简历{% else %}Jichang Yang’s English curriculum vitae{% endif %}" loading="eager"></iframe>
+<p class="cv-fallback">{% if page.lang == 'zh-CN' %}如浏览器无法显示 PDF，<a href="{{ cv_url }}" target="_blank" rel="noopener">可在新标签页打开完整 PDF ↗</a>。{% else %}If the PDF does not display in your browser, <a href="{{ cv_url }}" target="_blank" rel="noopener">open the full PDF in a new tab ↗</a>.{% endif %}</p>

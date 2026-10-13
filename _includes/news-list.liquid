@@ -2,6 +2,6 @@
 {% assign offset = include.offset | default: 0 %}
 <dl class="news-list">
 {% for item in news limit: include.limit offset: offset %}
-  <div><dt>{% if item.date_label %}{{ item.date_label | escape }}{% else %}{{ item.date | date: '%b %Y' }}{% endif %}</dt><dd><span class="news-emoji" aria-hidden="true">{{ item.emoji | default: "📰" }}</span><div>{{ item.content | markdownify }}</div></dd></div>
+  <div><dt>{% if item.date_label %}{{ item.date_label | escape }}{% else %}{% if page.lang == 'zh-CN' %}{{ item.date | date: '%Y 年 %-m 月' }}{% else %}{{ item.date | date: '%b %Y' }}{% endif %}{% endif %}</dt><dd><span class="news-emoji" aria-hidden="true">{{ item.emoji | default: "📰" }}</span><div>{% if page.lang == 'zh-CN' %}{{ item.content_zh | default: item.content | markdownify }}{% else %}{{ item.content | markdownify }}{% endif %}</div></dd></div>
 {% endfor %}
 </dl>

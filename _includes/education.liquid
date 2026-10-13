@@ -3,10 +3,10 @@
   <div class="education-item">
     <img src="{{ item.logo | prepend: '/assets/img/' | relative_url }}" alt="{{ item.abbreviation }}" width="48" height="48" loading="lazy">
     <div>
-      <div class="education-heading"><strong>{{ item.institution }}</strong><span>{{ item.period }}</span></div>
-      <p>{{ item.degree }}</p>
-      {% if item.topics %}<p class="education-detail">{{ item.topics }}</p>{% endif %}
-      {% if item.advisors %}<p class="education-detail">Advisors: {{ item.advisors }}</p>{% endif %}
+      <div class="education-heading"><strong>{% if page.lang == 'zh-CN' %}{{ item.institution_zh | default: item.institution }}{% else %}{{ item.institution }}{% endif %}</strong><span>{{ item.period }}</span></div>
+      <p>{% if page.lang == 'zh-CN' %}{{ item.degree_zh | default: item.degree }}{% else %}{{ item.degree }}{% endif %}</p>
+      {% if item.topics %}<p class="education-detail">{% if page.lang == 'zh-CN' %}{{ item.topics_zh | default: item.topics }}{% else %}{{ item.topics }}{% endif %}</p>{% endif %}
+      {% if item.advisors %}<p class="education-detail">{% if page.lang == 'zh-CN' %}导师：{% else %}Advisors: {% endif %}{% if page.lang == 'zh-CN' %}{{ item.advisors_zh | default: item.advisors }}{% else %}{{ item.advisors }}{% endif %}</p>{% endif %}
     </div>
   </div>
 {% endfor %}
