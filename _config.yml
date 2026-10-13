@@ -16,8 +16,8 @@ apple_touch_icon: apple-touch-icon-yjc-180.png
 og_image: /assets/img/avatar.png
 serve_og_meta: true
 serve_schema_org: true
-google_site_verification:
-enable_google_verification: false
+google_site_verification: ddFJZxE504jLIKYpGjhkl5EfVnXpT1qiPmUJOh7ss68
+enable_google_verification: true
 
 # Official al-folio v1 runtime; no copied theme internals.
 theme: al_folio_core
