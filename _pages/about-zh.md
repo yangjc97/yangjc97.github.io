@@ -12,7 +12,7 @@ profile:
   image_circular: false
   more_info: >
     <ul class="profile-contact-links">
-      <li><a href="mailto:yangjc100@connect.hku.hk"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>yangjc100@connect.hku.hk</span></a></li>
+      <li><a href="mailto:yangjc@hku.hk"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>yangjc@hku.hk</span></a></li>
       <li><a href="https://scholar.google.com/citations?user=HpkVT94AAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li>
       <li><a href="https://orcid.org/0000-0003-3760-6762"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>
       <li><a href="https://www.researchgate.net/profile/Jichang-Yang"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a></li>
